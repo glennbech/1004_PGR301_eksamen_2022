@@ -4,7 +4,7 @@ resource "aws_cloudwatch_metric_alarm" "many_carts" {
   metric_name         = "carts.value"
 
   comparison_operator = "GreaterThanThreshold"
-  threshold           = "5"
+  threshold           = "4"
   evaluation_periods  = "3"
   period = "300"
 
